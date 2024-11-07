@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
+:root {
+    --color-primary: #556da0;
+    --color-secondary: #ef895d;
+  }
+  
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(../assets/background-image.jpg);
+    font-family: "Montserrat", serif;
+}
+.center-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.btn-primary {
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  
+.btn-primary:hover {
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .btn-secondary {
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  
+.btn-secondary:hover {
+    background: var(--color-secondary);
+    color: white;
+  }
+
+
+.color-title {
+    color: var(--color-primary);
+}
+
+.container {
+    padding: 1rem 2rem 2rem 2rem!important;
+}
